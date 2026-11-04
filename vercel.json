@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/gdrive/:path*", "destination": "https://drive.usercontent.google.com/:path*" }
+    { "source": "/gdrive/:path*", "destination": "https://drive.usercontent.google.com/:path*" },
+    { "source": "/gdocs/:path*", "destination": "https://drive.google.com/:path*" }
   ],
   "headers": [
     { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
